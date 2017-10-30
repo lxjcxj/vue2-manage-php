@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
-	'dbdriver' => 'mysqli',
+	'dsn'	=> 'mysql:host=www.hijs.cc;port=3306;dbname=vue2manage',
+	'hostname' => 'www.hijs.cc',
+	'username' => 'vue2manage',
+	'password' => 'TF4NrASZKP',
+	'database' => 'vue2manage',
+	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
