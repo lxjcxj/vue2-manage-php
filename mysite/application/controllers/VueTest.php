@@ -13,12 +13,12 @@ class VueTest extends CI_Controller
     {
         $page = $this->input->get_post('page', true);
         $num = $this->input->get_post('num', true);
-        if (is_numeric($page) && $page > 1) {
+        if (is_numeric($page) && $page > 0) {
             $page--;
         } else {
             $page = 0;
         }
-        if (is_numeric($num) && $num > 1) {
+        if (is_numeric($num) && $num > 0) {
 
         } else {
             $num = 10;

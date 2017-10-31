@@ -74,7 +74,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:host=127.0.0.1;port=3306;dbname=vue2manage',
+	'dsn'	=> 'mysql:host=www.hijs.cc;port=3306;dbname=vue2manage',
 	'hostname' => 'www.hijs.cc',
 	'username' => 'vue2manage',
 	'password' => 'TF4NrASZKP',
