@@ -83,3 +83,10 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+
+define('RET_SUCC', 0); //成功
+define('RET_ERROR', -1); //错误
+define('RET_PARAM_ERROR', -2); //参数错误
+define('RET_NULL', -10001); //暂无数据
+define('LOAD_END', -10002); //数据已加载完
