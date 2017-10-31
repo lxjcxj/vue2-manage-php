@@ -10,15 +10,22 @@ class VueTest extends CI_Controller
 
     public function index()
     {
+        $res = $this->db->query('select * from test');
+        echo json_encode($res->result_array(), JSON_UNESCAPED_UNICODE);
+    }
+
+    public function index1()
+    {
         //$this->load->database();
+
         $res = $this->db->query('select * from test');
         print_r($res->result_array());  //数组
         print_r($res->result());        //对象
         print_r($res->row_array());     //单行数组
         print_r($res->row());           //单行对象
 
-        $this->db->query("INSERT INTO test VALUES (335)");
-        echo $this->db->affected_rows();
+        //$this->db->query("INSERT INTO test VALUES (335)");
+        //echo $this->db->affected_rows();
     }
 
 }
