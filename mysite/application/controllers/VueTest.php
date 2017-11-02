@@ -7,6 +7,7 @@ class VueTest extends CI_Controller
     {
         parent::__construct();
         $this->load->helper('result');
+        $this->output->enable_profiler(TRUE);
     }
 
     public function index()

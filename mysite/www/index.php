@@ -116,7 +116,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = PATH_ROOT.'/mysite/application';
+	$application_folder = realpath("../application");;
 
 /*
  *---------------------------------------------------------------
