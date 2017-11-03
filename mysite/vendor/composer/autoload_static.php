@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit9c0576d9f7c8107f46cb5e965e0ed7a1
 {
+    public static $files = array (
+        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'p' => 
         array (
@@ -23,11 +27,19 @@ class ComposerStaticInit9c0576d9f7c8107f46cb5e965e0ed7a1
         ),
         'P' => 
         array (
+            'Psr\\Http\\Message\\' => 17,
             'Predis\\' => 7,
+        ),
+        'L' => 
+        array (
+            'League\\OAuth2\\Server\\' => 21,
+            'League\\Event\\' => 13,
+            'Lcobucci\\JWT\\' => 13,
         ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
+            'Defuse\\Crypto\\' => 14,
             'DeepCopy\\' => 9,
         ),
     );
@@ -55,13 +67,33 @@ class ComposerStaticInit9c0576d9f7c8107f46cb5e965e0ed7a1
         array (
             0 => __DIR__ . '/..' . '/symfony/options-resolver',
         ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
         'Predis\\' => 
         array (
             0 => __DIR__ . '/..' . '/predis/predis/src',
         ),
+        'League\\OAuth2\\Server\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/oauth2-server/src',
+        ),
+        'League\\Event\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/event/src',
+        ),
+        'Lcobucci\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
+        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
+        ),
+        'Defuse\\Crypto\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/defuse/php-encryption/src',
         ),
         'DeepCopy\\' => 
         array (

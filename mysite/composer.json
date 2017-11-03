@@ -15,7 +15,8 @@
 		"curl/curl": "^1.6",
 		"predis/predis": "^1.1",
 		"nette/mail": "^2.4",
-		"kzykhys/git": "dev-master"
+		"kzykhys/git": "dev-master",
+		"league/oauth2-server": "^6.0"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
